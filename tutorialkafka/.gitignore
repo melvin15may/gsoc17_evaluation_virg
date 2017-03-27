@@ -34,4 +34,4 @@ coverage.xml
 # Django stuff:
 *.log
 *.pot
-static/consumed_messages.txt
+
