@@ -39,7 +39,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'tk.apps.TkConfig',
-    #'tk.apps.TkconsConfig',
+    'tkcons.apps.TkconsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
