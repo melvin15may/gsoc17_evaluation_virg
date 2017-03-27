@@ -8,7 +8,9 @@ We will create 2 apps, producer and consumer. The producer will have an API endp
 * django v1.10.6
 * kafka-python v1.3.3
 * kafka v0.10.2
-* ubuntu 16.04
+
+### System
+* ubuntu 16.04 LTS
 
 ### Installation
 ##### Installing Django  
