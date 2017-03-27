@@ -15,6 +15,10 @@ import os
 # Kafka config 
 KAFKA_BROKER_URL = "localhost:9092"
 
+#Clear file on initialize
+with open("static/consumed_messages.txt", "w") as f:
+    f.write("")
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -35,6 +39,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'tk.apps.TkConfig',
+    #'tk.apps.TkconsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

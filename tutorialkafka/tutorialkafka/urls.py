@@ -17,6 +17,7 @@ from django.conf.urls import url, include
 from django.contrib import admin
 
 urlpatterns = [
-	url(r'^tk/', include('tk.urls')),
+	url(r'^tkprod/', include('tk.urls')),
+	url(r'^tkcons/', include('tkcons.urls')),
     url(r'^admin/', admin.site.urls),
 ]
